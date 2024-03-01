@@ -10,8 +10,8 @@ For each SOLID principle, we provide before and after examples to demonstrate ho
 
 Each class or module should have only one reason to change, meaning it should have only one responsibility.
 
-- **Before**: [Go to example](src\\SRP_principle_not_respected.tsx)
-- **After**: [Go to example](src\\SRP_principle_respected.tsx)
+- **Before**: [Go to example](src/SRP_principle_not_respected.tsx)
+- **After**: [Go to example](src/SRP_principle_respected.tsx)
 
 The code demonstrates SRP by separating concerns related to users and email functionalities into distinct classes.
 
