@@ -1,0 +1,21 @@
+class Bird {
+    eat() {
+        console.log("I can eat");
+    }
+    fly() {
+        console.log("I can fly");
+    }
+}
+
+class Duck extends Bird {}
+
+class Ostrich extends Bird {}
+
+let bird1: Bird = new Duck();
+bird1.eat(); // OK
+bird1.fly(); // OK
+
+let bird2: Bird = new Ostrich();
+bird2.eat(); // OK
+bird2.fly(); // Erreur: Les autruches ne peuvent pas voler
+

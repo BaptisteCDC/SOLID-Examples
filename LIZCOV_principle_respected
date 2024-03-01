@@ -1,0 +1,52 @@
+class Birds {
+    eat() {
+        console.log("bird is eating");
+    }
+}
+
+class FlyingBirds extends Birds {
+    fly() {
+        console.log("I can fly");
+    }
+}
+
+class Sparrow extends FlyingBirds {
+}
+
+class Chicken extends Birds {
+}
+
+let bird3: FlyingBirds = new Sparrow();
+bird3.eat(); // OK
+bird3.fly(); // OK
+
+
+let bird4: Birds = new Chicken();
+bird4.eat(); // OK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//covariance =
+let birdList: Birds[] = [new Sparrow(), new Chicken(),new FlyingBirds()];
+birdList.forEach(bird => {
+        bird.eat();
+    });
+    
+

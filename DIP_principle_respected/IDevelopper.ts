@@ -1,0 +1,3 @@
+interface Developer {
+    writeCode(): void;
+}

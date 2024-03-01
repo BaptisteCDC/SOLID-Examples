@@ -1,0 +1,19 @@
+class FrontEndDeveloper2 {
+    writeJavaScript() {
+        console.log("Writing JavaScript code");
+    }
+}
+
+class BackEndDeveloper2 {
+    writeCSharp() {
+        console.log("Writing C# code");
+    }
+}
+
+class Project2 {
+    constructor(private frontEndDeveloper: FrontEndDeveloper2) {}
+
+    implement() {
+        this.frontEndDeveloper.writeJavaScript();
+    }
+}
