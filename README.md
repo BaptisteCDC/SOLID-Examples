@@ -38,8 +38,8 @@ By segregating functionalities into separate classes based on their responsibili
 
 Software entities should be open for extension but closed for modification, allowing for new functionality to be added without altering existing code.
 
-- **Before**: [Go to example](src\\OCP_Principle_not_respected.tsx)
-- **After**: [Go to example](src\\OCP_Principle_respected.tsx)
+- **Before**: [Go to example](src/OCP_Principle_not_respected.tsx)
+- **After**: [Go to example](src/OCP_Principle_respected.tsx)
 
 The code showcases the OCP by designing classes that are open for extension but closed for modification, allowing easy addition of new shapes without altering existing code.
 
@@ -58,8 +58,8 @@ By adopting the OCP, the codebase becomes more flexible, allowing for the additi
 
 Subtypes should be substitutable for their base types without altering the correctness of the program, ensuring that derived classes can be used interchangeably with their base classes.
 
-- **Before**: [Go to example](src\LIZCOV_principle_Not_Respected)
-- **After**: [Go to example](src\LIZCOV_principle_respected)
+- **Before**: [Go to example](src/LIZCOV_principle_Not_Respected)
+- **After**: [Go to example](src/LIZCOV_principle_respected)
 
 The code demonstrates adherence to the Liskov Substitution Principle by ensuring that derived classes can be substituted for their base classes without affecting the program's correctness.
 
@@ -81,8 +81,8 @@ By ensuring that subclasses can be used interchangeably with their base classes 
 
 Clients should not be forced to depend on interfaces they don't use. Instead of large interfaces, use smaller, more specific ones tailored to each client's needs.
 
-- **Before**: [Go to example](src\ISP_principle_not_respected.tsx)
-- **After**: [Go to example](src\ISP_Principle_respected.tsx)
+- **Before**: [Go to example](src/ISP_principle_not_respected.tsx)
+- **After**: [Go to example](src/ISP_Principle_respected.tsx)
 
 The code exemplifies the Interface Segregation Principle by ensuring that clients are not forced to depend on interfaces they don't use, and by preferring smaller, more specific interfaces tailored to each client's needs.
 
