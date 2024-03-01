@@ -10,8 +10,8 @@ For each SOLID principle, we provide before and after examples to demonstrate ho
 
 Each class or module should have only one reason to change, meaning it should have only one responsibility.
 
-- **Before**: [Go to example](src\SRP_principle_not_respected.tsx)
-- **After**: [Go to example](src\SRP_principle_respected.tsx)
+- **Before**: [Go to example](src\\SRP_principle_not_respected.tsx)
+- **After**: [Go to example](src\\SRP_principle_respected.tsx)
 
 The code demonstrates SRP by separating concerns related to users and email functionalities into distinct classes.
 
@@ -38,8 +38,8 @@ By segregating functionalities into separate classes based on their responsibili
 
 Software entities should be open for extension but closed for modification, allowing for new functionality to be added without altering existing code.
 
-- **Before**: [Go to example](src\OCP_Principle_not_respected.tsx)
-- **After**: [Go to example](src\OCP_Principle_respected.tsx)
+- **Before**: [Go to example](src\\OCP_Principle_not_respected.tsx)
+- **After**: [Go to example](src\\OCP_Principle_respected.tsx)
 
 The code showcases the OCP by designing classes that are open for extension but closed for modification, allowing easy addition of new shapes without altering existing code.
 
